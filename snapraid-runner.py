@@ -81,9 +81,9 @@ def send_message(success):
         return
 
     if success:
-        message = "SnapRAID job completed successfully"
+        message = "\U00002600 SnapRAID job completed successfully"
     else:
-        message = "Error during SnapRAID job"
+        message = "\U0001F480 Error during SnapRAID job"
 
     token = config["telegram"]["token"]
     chatid = config["telegram"]["chatid"]
