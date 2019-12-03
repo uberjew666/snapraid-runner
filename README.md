@@ -23,10 +23,13 @@ It supports Windows, Linux and macOS and runs on both python2 and python3.
 * Runs `diff` before `sync` to see how many files were deleted and aborts if
   that number exceeds a set threshold.
 * Can create a size-limited rotated logfile.
-* Can send notification emails after each run or only for failures.
+* Can send notification emails and Telegram after each run or only for failures.
 * Can run `scrub` after `sync`
 
 ## Changelog
+### v0.5 (03 Dec 2019)
+* Add Telegram notification support (by uberjew666)
+
 ### v0.4 (17 Aug 2019)
 * Add compatibility with python3 (by reed-jones)
 * Add support for running `snapraid touch` (by ShoGinn, PR-11)

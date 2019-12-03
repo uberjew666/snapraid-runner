@@ -35,6 +35,10 @@ tls = false
 user =
 password =
 
+[telegram]
+token = 
+chatid = 
+
 [scrub]
 ; set to true to run scrub after sync
 enabled = false
